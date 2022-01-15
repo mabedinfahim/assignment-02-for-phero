@@ -125,7 +125,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/main-camera.png");
+    background-image: url("./images/main-camera.png");
     background-size: contain;
     background-repeat: no-repeat;
     animation: slading 15s infinite linear;
