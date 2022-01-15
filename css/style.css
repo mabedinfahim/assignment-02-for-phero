@@ -262,16 +262,16 @@ body{
         background-image: url('/images/delivery.png');
     }
     25%{
-        background-image: url('/images/Free\ shipping-bro.png');
+        background-image: url('/images/shipping-bro.png');
     }
     50%{
-        background-image: url('/images/Take\ Away-pana.png');
+        background-image: url('/images/away-pana.png');
     }
     75%{
         background-image: url('/images/feature.png');
     }
     100%{
-        background-image: url('/images/Dropshipping\ model-amico.png');
+        background-image: url('/images/model-amico.png');
     }
 }
 
