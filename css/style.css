@@ -121,10 +121,11 @@ body{
 
 .right{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: grid;
     justify-content: center;
     align-items: center;
+    background-image: url("/images/main-camera.png");
     background-size: contain;
     background-repeat: no-repeat;
     animation: slading 15s infinite linear;
@@ -132,18 +133,12 @@ body{
 }
 
 @keyframes slading{
-        0%{
-            background-image: url('/images/one.png');
-        }
-        33% {
-            background-image: url('/images/two.png');
-        }
-        66%{
-            background-image: url('/images/three.png');
-        }
-        100%{
-            background-image: url('/images/four.png');
-        }
+       from{
+           transform: rotate(0deg);
+       }
+       to{
+           transform: rotate(359deg);
+       }
 }
 
 .our-partner{
@@ -248,31 +243,8 @@ body{
 .feature-img .img{
     width: 100%;
     height: 400px;
-    transition: all .3s ease;
-    animation: feature 15s infinite linear;
     justify-content: center;
-    background-image: url('/images/delivery.png');
     align-items: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-@keyframes feature{
-    0%{
-        background-image: url('/images/shipping.png');
-    }
-    25%{
-        background-image: url('/images/pana.png');
-    }
-    50%{
-        background-image: url('/images/delivery.png');
-    }
-    75%{
-        background-image: url('/images/feature.png');
-    }
-    100%{
-        background-image: url('/images/pana.png');
-    }
 }
 
 .feature-info{
