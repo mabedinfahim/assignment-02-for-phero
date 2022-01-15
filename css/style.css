@@ -133,16 +133,16 @@ body{
 
 @keyframes slading{
         0%{
-            background-image: url('/images/Broadcast-cuate.png');
+            background-image: url('/images/one.png');
         }
         33% {
-            background-image: url('/images/Studio\ photographer-cuate.png');
+            background-image: url('/images/two.png');
         }
         66%{
-            background-image: url('/images/Broadcast-cuate.png');
+            background-image: url('/images/three.png');
         }
         100%{
-            background-image: url('/images/Camera-amico.png');
+            background-image: url('/images/four.png');
         }
 }
 
@@ -259,19 +259,19 @@ body{
 
 @keyframes feature{
     0%{
-        background-image: url("/images/delivery.png");
+        background-image: url('/images/shipping.png');
     }
     25%{
-        background-image: url("/images/shipping-bro.png");
+        background-image: url('/images/pana.png');
     }
     50%{
-        background-image: url("/images/away-pana.png");
+        background-image: url('/images/delivery.png');
     }
     75%{
-        background-image: url("/images/feature.png");
+        background-image: url('/images/feature.png');
     }
     100%{
-        background-image: url("/images/model-amico.png");
+        background-image: url('/images/pana.png');
     }
 }
 
