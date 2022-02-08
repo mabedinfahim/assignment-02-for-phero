@@ -38,7 +38,7 @@ body{
     font-size: 25px;
 }
 
-.branding-logo span{
+.branding-logo h2 span{
     color: var(--primary);
 }
 
