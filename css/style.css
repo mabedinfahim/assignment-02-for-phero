@@ -34,11 +34,11 @@ body{
     margin-top: 50px;
 }
 
-.branding-logo h1{
-    font-size: 50px;
+.branding-logo{
+    font-size: 25px;
 }
 
-.branding-logo h1 span{
+.branding-logo span{
     color: var(--primary);
 }
 
